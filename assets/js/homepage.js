@@ -52,7 +52,7 @@ var getUserRepos = function(user) {
 
 // Display repos function
 var displayRepos = function(repos, searchTerm) {
-    // check if api resturned any repos
+    // check if api returned any repos
     if (repos.length === 0) {
         repoContainerEl.textContent = "No Repositories Found";
         return;
